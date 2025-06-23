@@ -3,8 +3,8 @@
   "eval_precision": 1.0,
   "eval_recall": 1.0,
   "eval_f1": 1.0,
-  "eval_runtime": 0.797,
-  "eval_samples_per_second": 1.255,
-  "eval_steps_per_second": 1.255,
+  "eval_runtime": 0.1102,
+  "eval_samples_per_second": 9.075,
+  "eval_steps_per_second": 9.075,
   "epoch": 3.0
 }

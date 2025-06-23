@@ -35,10 +35,10 @@ async def scrape_channel(client, channel_username, writer, media_dir):
 
 async def main():
     await client.start()
-    media_dir = 'data/raw/photos'
+    media_dir = '../data/raw/photos'
     os.makedirs(media_dir, exist_ok=True)
 
-    with open('data/raw/telegram_data.csv', 'w', newline='', encoding='utf-8') as file:
+    with open('../data/raw/telegram_data.csv', 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(['Channel Title', 'Channel Username', 'ID', 'Message', 'Date', 'Media Path'])
         
