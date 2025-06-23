@@ -15,6 +15,10 @@ venv/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+
+notebooks/ner_model/
+notebooks/ner_model_afroxlmr/
+notebooks/ner_model_bert_tiny_amharic/
 # Output data
 data/raw/*.csv
 data/raw/photos/
